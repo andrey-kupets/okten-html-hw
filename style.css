@@ -1,0 +1,28 @@
+#main {
+    margin: 10px 40% 10px 10px;
+}
+
+h1 {
+    background-color: mediumturquoise; 
+    background: #000; 
+    border-style: solid;
+    border-color:red;
+    border-width: 5px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    font-weight: 400;
+    font-style: italic;
+}
+
+.color-shift:hover {
+    color: rgb(68, 1, 252);
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
