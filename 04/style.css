@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.w_1200 {
+    width: 1200px;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.h_600 {
+    height: 600px;
+}
+
+.h25 {
+    height: 25%;
+}
+
+.h50 {
+    height: 50%;
+}
+
+.bg_orange {
+    background: orange;
+}
+
+.bg_red {
+    background: red;
+}
+
+.bg_green {
+    background: green;
+}
+
+.bg_blue {
+    background: blue;
+}
+
+.bg_black {
+    background: black;
+}
+
+.bd_black {
+    border: black solid 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
