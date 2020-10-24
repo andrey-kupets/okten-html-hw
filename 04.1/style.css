@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100%;
+}
+
+.header-top {
+    height: 87px;
+    background: #7e0019;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav {
+    background: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+}
+
+.top  {
+    height: 33px;
+    font-size: 11px;
+    line-height: 1.4em;
+    padding: 10px 400px 8px 400px;
+
+}
+
+.bottom {
+    height: 38px;
+    font-size: 14px;
+    line-height: 1.4em;
+    padding: 10px 300px 8px 300px;
+}
+
+
+ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+li {
+    display: block;
+}
+
+a {
+    display: block;
+    color: white;
+    cursor: pointer;
+}
+
+li a {
+    color: #1A1A1A; 
+}
+
+
+li a:hover {
+    opacity: 70%; 
+}
+
+.active {
+    color: #900022;
+}
+
+.layout_main {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all_sections {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.all_sections a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item_menu {
+    width: 30px;
+    height: 7px;
+    display: block;
+    background-color: white;
+    border: 50%;
+    border: 2px solid #7e0019;
+}
+
+.block {
+    display: block;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.logo_items span {
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.logo_brand {
+    line-height: 50px;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-stretch: extra-condensed;
+}
+
+.logo_info {
+    font-size: 11px;
+}
+
+.top_options {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.top_options a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top_options span {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.options_text_active {
+    opacity: 50%;
+}
+
+.club_style {
+    width: 100px;
+    height: 36px;
+    line-height: 30px;
+    border: #fff 3px solid;
+    border-radius: 20px;
+    background-color: #b30c1d;
+}
+
+.club_style:hover {
+    opacity: 70%;
+}
+
+
