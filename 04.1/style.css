@@ -11,6 +11,10 @@ html, body {
     font-size: 100%;
 }
 
+/* .main-header {
+    height: 160px;
+} */
+
 .header-top {
     height: 87px;
     background: #7e0019;
@@ -29,7 +33,6 @@ html, body {
 .top  {
     height: 33px;
     font-size: 11px;
-    line-height: 1.4em;
     padding: 10px 400px 8px 400px;
 
 }
@@ -37,16 +40,13 @@ html, body {
 .bottom {
     height: 38px;
     font-size: 14px;
-    line-height: 1.4em;
     padding: 10px 300px 8px 300px;
 }
 
 
 ul {
     display:flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    align-content: center;
 }
 
 li {
@@ -114,7 +114,6 @@ li a:hover {
 
 .flex-row {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -124,19 +123,25 @@ li a:hover {
     align-items: center;
 }
 
-.logo_items span {
+.logo_items {
+    width: 308px;
+    height: 60px;
     color: white;
-    display: block;
+    display: flex;
     text-transform: uppercase;
+    flex-direction: column;
+}
+
+.logo_items span {
     text-align: center;
 }
 
-.logo_brand {
+/* .logo_brand {
     line-height: 50px;
     font-size: 2.5em;
     font-weight: 600;
     font-stretch: extra-condensed;
-}
+} */
 
 .logo_info {
     font-size: 11px;
@@ -146,8 +151,8 @@ li a:hover {
     width: 200px;
     height: 50px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    /* align-items: center; */
+    /* justify-content: space-around; */
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
@@ -185,4 +190,98 @@ li a:hover {
     opacity: 70%;
 }
 
+/* COVID INFO */
 
+.covid-link {
+    display: block;
+    color: #1A1A1A;
+}
+
+.covid-link:hover {
+    color: #900022;
+}
+
+.cov_title {
+    font-size: 18px;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #900022;
+    margin-top: 25px;
+}
+
+.cov_stat {
+    width: calc(100% + 10px);
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 0 0 0 0;
+    margin: 0 -5px;
+}
+
+.stat_item {
+    margin-left: -1px;
+    width: calc(100% / 4);
+    position: relative;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+
+.item_wrap {
+    border: #e3e3e3 1px solid;
+    padding: 13px 12px;
+    position: relative;
+}
+
+.item_description {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    display: block;
+}
+
+.item_num {
+    width: 50%;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 0.9em;
+    white-space: nowrap;
+}
+
+.chart {
+    color: #900022;
+    position: absolute;
+    left: 50%;
+    top: 24px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.1em;
+}
+
+.item_change {
+    color: #900022;
+    position: relative;
+    left: -6px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.1em;
+}
+
+.cov_info {
+    font-size: 13px;
+    color: #111;
+    padding-top: 5px;
+}
+
+.cov_more {
+    font-size: 12px;
+    color: #900022;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.cov_more_span {
+    font-size: 19px;
+    position: relative;
+    top: 4px;
+}
